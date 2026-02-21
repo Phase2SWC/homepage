@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+  <title>Phase 2 – Software Development Consulting</title>
+  <meta name="description" content="Phase 2 brings senior architecture, cloud engineering, and AI expertise directly to your team. AWS, High Level Sercies and Low Level Details, real-time systems." />
+
+  <!-- Open Graph -->
+  <meta property="og:title"       content="Phase 2 – Software Development Consulting" />
+  <meta property="og:description" content="Turn your software into a competitive advantage. Senior architecture, cloud, and AI expertise — no ramp-up, measurable results from day one." />
+  <meta property="og:type"        content="website" />
+
+  <meta name="theme-color" content="#2c5aa0" />
+
+  <link rel="icon" type="image/png" href="fox_phi2.png" />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ═══════════════════════════════════════════════════════════
+       NAV
+  ═══════════════════════════════════════════════════════════ -->
+  <header class="nav" role="banner">
+    <div class="container">
+      <div class="nav__inner">
+
+        <a href="#" class="nav__wordmark" aria-label="Phase 2 — home">
+          <img src="fox_phi2.png" alt="" class="nav__logo-icon" aria-hidden="true" />
+          Phase 2
+        </a>
+
+        <!-- Desktop links -->
+        <nav class="nav__links" aria-label="Primary navigation">
+          <a href="#services" class="nav__link">Services</a>
+          <a href="#work"     class="nav__link">Work</a>
+          <a href="#skills"   class="nav__link">Skills</a>
+          <a href="#about"    class="nav__link">About</a>
+          <a href="#contact"  class="btn btn--nav">Get in Touch</a>
+        </nav>
+
+        <!-- Hamburger (mobile) -->
+        <button
+          class="nav__hamburger"
+          aria-label="Toggle menu"
+          aria-expanded="false"
+          aria-controls="mobile-menu"
+        >
+          <span class="nav__hamburger-bar"></span>
+          <span class="nav__hamburger-bar"></span>
+          <span class="nav__hamburger-bar"></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile menu -->
+    <nav
+      id="mobile-menu"
+      class="nav__mobile-menu"
+      aria-label="Mobile navigation"
+    >
+      <a href="#services" class="nav__mobile-link">Services</a>
+      <a href="#work"     class="nav__mobile-link">Work</a>
+      <a href="#skills"   class="nav__mobile-link">Skills</a>
+      <a href="#about"    class="nav__mobile-link">About</a>
+      <div class="nav__mobile-cta">
+        <a href="#contact" class="btn btn--primary" style="width:100%;justify-content:center;">Get in Touch</a>
+      </div>
+    </nav>
+  </header>
+
+
+  <!-- ═══════════════════════════════════════════════════════════
+       HERO
+  ═══════════════════════════════════════════════════════════ -->
+  <section class="hero" aria-label="Introduction">
+    <div class="container">
+      <div class="hero__grid">
+
+        <div class="hero__content">
+          <span class="hero__eyebrow">Software Development Consulting</span>
+
+          <h1 class="hero__headline">
+            Get Out of Development Hell and Into the Fast Lane.
+          </h1>
+
+          <h3 class="hero__headline2">
+            Top Notch Software Development Consulting for your Startup.
+          </h3>
+
+          <p class="hero__sub">
+          Yoav Kleinberger, Senior Software Development Consultant, brings architecture, cloud engineering, and team building expertise directly to your team.<br />
+            no ramp-up, no fluff.
+          </p>
+
+          <div class="hero__actions">
+            <a href="#contact" class="btn btn--primary">Get in Touch</a>
+            <a href="#services" class="btn btn--outline">Explore Services</a>
+          </div>
+
+          <p class="hero__microcopy">Available globally</p>
+        </div>
+
+        <div class="hero__photo-wrap">
+          <img src="yoavln.jpeg" alt="Yoav Kleinberger" class="hero__photo" />
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════════════════════════
+       SERVICES
+  ═══════════════════════════════════════════════════════════ -->
+  <section id="services" class="section">
+    <div class="container">
+      <div class="section__header reveal">
+        <h2 class="section__title">Among Other Things...</h2>
+        <p class="section__subtitle">
+          Deep, hands-on expertise across the full software lifecycle —
+          from whiteboard to production.
+        </p>
+      </div>
+
+      <div class="grid-4" style="grid-template-columns: repeat(auto-fit, minmax(min(100%, 200px), 1fr));">
+
+        <!-- Card 1 -->
+        <article class="card card--hover reveal" style="transition-delay: 0.05s">
+          <div class="service-card__icon" aria-hidden="true">
+            <!-- Architecture icon -->
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <rect x="3" y="3" width="7" height="7" rx="1"/>
+              <rect x="14" y="3" width="7" height="7" rx="1"/>
+              <rect x="3" y="14" width="7" height="7" rx="1"/>
+              <rect x="14" y="14" width="7" height="7" rx="1"/>
+            </svg>
+          </div>
+          <h3 class="service-card__title">System Architecture &amp; Design</h3>
+          <ul class="service-card__list">
+            <li>Greenfield systems &amp; legacy modernisation</li>
+            <li>Pragmatic trade-offs, right-sized for your stage</li>
+            <li>Microservices, async pipelines, event-driven design</li>
+          </ul>
+        </article>
+
+        <!-- Card 2 -->
+        <article class="card card--hover reveal" style="transition-delay: 0.10s">
+          <div class="service-card__icon" aria-hidden="true">
+            <!-- Cloud icon -->
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M18 10h-1.26A8 8 0 1 0 9 20h9a5 5 0 0 0 0-10z"/>
+            </svg>
+          </div>
+          <h3 class="service-card__title">AWS Cloud &amp; Infrastructure</h3>
+          <ul class="service-card__list">
+            <li>Lambda, ECS, Aurora, SQS, VPC, IAM</li>
+            <li>CloudFormation &amp; SAM — multi-stack deployments</li>
+            <li>Scale and resilience</li>
+          </ul>
+        </article>
+
+        <!-- Card 3 -->
+        <article class="card card--hover reveal" style="transition-delay: 0.15s">
+          <div class="service-card__icon" aria-hidden="true">
+            <!-- AI / brain icon -->
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M12 2a4 4 0 0 1 4 4c0 .34-.04.67-.1 1H17a3 3 0 0 1 3 3v1a3 3 0 0 1-1.8 2.77A3 3 0 0 1 16 17H8a3 3 0 0 1-2.2-1.23A3 3 0 0 1 4 13v-1a3 3 0 0 1 3-3h1.1A4.18 4.18 0 0 1 8 6a4 4 0 0 1 4-4z"/>
+              <line x1="12" y1="13" x2="12" y2="21"/>
+              <line x1="8"  y1="21" x2="16" y2="21"/>
+            </svg>
+          </div>
+          <h3 class="service-card__title">AI &amp; Real-Time Systems</h3>
+          <ul class="service-card__list">
+            <li>Similarity models, LLM integration &amp; evaluation</li>
+            <li>WebSockets, SIPREC, async Python pipelines</li>
+            <li>Real-time media streaming &amp; AI analysis</li>
+          </ul>
+        </article>
+
+        <!-- Card 4 -->
+        <article class="card card--hover reveal" style="transition-delay: 0.20s">
+          <div class="service-card__icon" aria-hidden="true">
+            <!-- Checkmark / quality icon -->
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
+              <polyline points="22 4 12 14.01 9 11.01"/>
+            </svg>
+          </div>
+          <h3 class="service-card__title">Engineering Excellence</h3>
+          <ul class="service-card__list">
+            <li>Requirements translated into fact-based tests</li>
+            <li>CI/CD automation &amp; clean build systems</li>
+            <li>Code quality standards, reviews &amp; conventions</li>
+          </ul>
+        </article>
+
+        <!-- Card 5 -->
+        <article class="card card--hover reveal" style="transition-delay: 0.25s">
+          <div class="service-card__icon" aria-hidden="true">
+            <!-- People / team icon -->
+            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+              <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
+              <circle cx="9" cy="7" r="4"/>
+              <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
+              <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+            </svg>
+          </div>
+          <h3 class="service-card__title">Team and Culture Building &amp; Mentoring</h3>
+          <ul class="service-card__list">
+            <li>Hiring &amp; growing senior and junior engineers</li>
+            <li>Manager &amp; tech-lead mentoring</li>
+            <li>Agile that actually works — not just buzzwords</li>
+          </ul>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════════════════════════
+       WORK / CASE STUDIES
+  ═══════════════════════════════════════════════════════════ -->
+  <section id="work" class="section section--alt">
+    <div class="container">
+      <div class="section__header reveal">
+        <h2 class="section__title">Impact &amp; Results</h2>
+        <p class="section__subtitle">
+          Real outcomes from real engagements — not just shipped features, but measurable business results.
+        </p>
+      </div>
+
+      <div class="grid-3">
+
+        <!-- Case 1 -->
+        <article class="card card--accent-top work-card reveal" style="transition-delay: 0.05s">
+          <div class="work-card__stat">
+            <div class="stat-number">From POC to Production</div>
+          </div>
+          <h3 class="work-card__title">Real-Time AI Conversation Platform: POC → Production</h3>
+          <p class="work-card__body">
+            Transformed a basic proof-of-concept into a secure, scalable, real-time AI
+            conversation-analysis product. Delivered to the first customer in six months;
+            scaled from 100 to 15,000 calls per day across multiple customers, integrations and regions.
+            High test coverage: unit, E2E, and scale tests throughout.
+          </p>
+          <div class="work-card__tags">
+            <span class="pill">Python / async</span>
+            <span class="pill">WebSockets</span>
+            <span class="pill">SIPREC</span>
+            <span class="pill">LLM</span>
+            <span class="pill">AWS</span>
+            <span class="pill">ECS</span>
+            <span class="pill">ALB</span>
+            <span class="pill">VPC</span>
+            <span class="pill">S3</span>
+            <span class="pill">SQS</span>
+          </div>
+        </article>
+
+        <!-- Case 2 -->
+        <article class="card card--accent-top work-card reveal" style="transition-delay: 0.10s">
+          <div class="work-card__stat">
+            <div class="stat-number">X-Factor</div>
+          </div>
+          <h3 class="work-card__title">Engineering Excellence: From Team Building to Best Practices to Architecture</h3>
+          <p class="work-card__body">
+            Worked in diverse roles as standalone developer, Team Leader and Architect, led work across diverse technologies: async microservices, RabbitMQ pipelines,
+            AWS Lambda + SQS infrastructure, C++ Build Systems. Established all important good practices, uniform work environments reducing friction,
+            code quality standards, and CI/CD infrastructure and design, including tests at all levels: E2E, Unit and Scale Tests.
+
+            Led routine development work as well as major architectural initiatives, including research, technology selection, and overseeing implementation by other engineers.
+          </p>
+          <div class="work-card__tags">
+            <span class="pill">AWS</span>
+            <span class="pill">Microservices</span>
+            <span class="pill">Build systems</span>
+            <span class="pill">TDD</span>
+            <span class="pill">RabbitMQ</span>
+            <span class="pill">CI/CD</span>
+            <span class="pill">Architecture</span>
+          </div>
+        </article>
+
+        <!-- Case 3 -->
+        <article class="card card--accent-top work-card reveal" style="transition-delay: 0.15s">
+          <div class="work-card__stat">
+            <div class="stat-number">Built from Scratch</div>
+          </div>
+          <h3 class="work-card__title">WiFi Security Product: Core Engineering from the Ground Up</h3>
+          <p class="work-card__body">
+            Engineered the core of a WiFi security product from scratch: from
+            low-level networking and WiFi monitoring to analysis tools,
+            Embedded Linux system configuration, and comprehensive testing
+            infrastructure. Handed off a production-ready prototype system
+            supporting a wide range of cyber security applications, with robust
+            tooling, orderly and efficient deployment capabilities to edge
+            devices, with security built in from the start.
+          </p>
+          <div class="work-card__tags">
+            <span class="pill">C hacking</span>
+            <span class="pill">Python</span>
+            <span class="pill">802.11</span>
+            <span class="pill">Embedded Linux Distributions</span>
+            <span class="pill">TCP/IP</span>
+            <span class="pill">Networking</span>
+            <span class="pill">Low Level</span>
+          </div>
+        </article>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════════════════════════
+       SKILLS
+  ═══════════════════════════════════════════════════════════ -->
+  <section id="skills" class="section">
+    <div class="container">
+      <div class="section__header reveal">
+        <h2 class="section__title">Technical Skills</h2>
+        <p class="section__subtitle">
+          A broad, deep toolkit built over 15+ years of hands-on engineering.
+        </p>
+      </div>
+
+      <div class="skills__grid">
+
+        <div class="reveal" style="transition-delay: 0.05s">
+          <h3 class="skill-category__title">Languages</h3>
+          <div class="skill-category__pills">
+            <span class="pill">Python</span>
+            <span class="pill">Ruby</span>
+            <span class="pill">JavaScript</span>
+            <span class="pill">C++</span>
+          </div>
+        </div>
+
+        <div class="reveal" style="transition-delay: 0.10s">
+          <h3 class="skill-category__title">Cloud / AWS</h3>
+          <div class="skill-category__pills">
+            <span class="pill">Lambda</span>
+            <span class="pill">ECS / ECR</span>
+            <span class="pill">Aurora</span>
+            <span class="pill">SQS</span>
+            <span class="pill">S3</span>
+            <span class="pill">VPC / IAM</span>
+            <span class="pill">CloudFormation</span>
+            <span class="pill">SAM</span>
+          </div>
+        </div>
+
+        <div class="reveal" style="transition-delay: 0.15s">
+          <h3 class="skill-category__title">Frameworks &amp; Async</h3>
+          <div class="skill-category__pills">
+            <span class="pill">FastAPI</span>
+            <span class="pill">Celery</span>
+            <span class="pill">asyncio</span>
+            <span class="pill">Ruby on Rails</span>
+            <span class="pill">RabbitMQ</span>
+          </div>
+        </div>
+
+        <div class="reveal" style="transition-delay: 0.20s">
+          <h3 class="skill-category__title">Databases</h3>
+          <div class="skill-category__pills">
+            <span class="pill">PostgreSQL</span>
+            <span class="pill">MySQL</span>
+            <span class="pill">AWS Aurora</span>
+            <span class="pill">MongoDB</span>
+          </div>
+        </div>
+
+        <div class="reveal" style="transition-delay: 0.25s">
+          <h3 class="skill-category__title">AI / ML</h3>
+          <div class="skill-category__pills">
+            <span class="pill">Similarity Models</span>
+            <span class="pill">LLM Integration</span>
+            <span class="pill">Keras</span>
+            <span class="pill">PyTorch</span>
+            <span class="pill">TensorFlow</span>
+            <span class="pill">XGBoost</span>
+          </div>
+        </div>
+
+        <div class="reveal" style="transition-delay: 0.30s">
+          <h3 class="skill-category__title">Real-Time &amp; Protocols</h3>
+          <div class="skill-category__pills">
+            <span class="pill">WebSockets</span>
+            <span class="pill">SIPREC</span>
+            <span class="pill">SIP</span>
+            <span class="pill">TCP/IP</span>
+            <span class="pill">WiFi</span>
+          </div>
+        </div>
+
+        <div class="reveal" style="transition-delay: 0.35s">
+          <h3 class="skill-category__title">DevOps &amp; CI/CD</h3>
+          <div class="skill-category__pills">
+            <span class="pill">Docker</span>
+            <span class="pill">GitHub Actions</span>
+            <span class="pill">GitLab CI</span>
+            <span class="pill">TDD</span>
+            <span class="pill">Linux</span>
+          </div>
+        </div>
+
+        <div class="reveal" style="transition-delay: 0.40s">
+          <h3 class="skill-category__title">Architecture Patterns</h3>
+          <div class="skill-category__pills">
+            <span class="pill">Microservices</span>
+            <span class="pill">Event-Driven</span>
+            <span class="pill">Serverless</span>
+            <span class="pill">Infrastructure as Code</span>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════════════════════════
+       ABOUT
+  ═══════════════════════════════════════════════════════════ -->
+  <section id="about" class="section section--alt">
+    <div class="container">
+      <div class="about__layout">
+
+        <!-- Text -->
+        <div class="reveal">
+          <h2 class="about__heading">
+            Quality and Speed that Go Together.
+          </h2>
+          <div class="about__body">
+            <p>
+              Quality of Development leads to Quality of Life -
+              for Customers, Executives, Product Managers, and Engineers.
+            </p>
+            <p>
+            For startups, Quality means resilience to change: move fast <em>without</em> breaking things, and <em>be in control</em>.
+            </p>
+            <p>
+              Ride fast without the wheels coming off.
+            </p>
+          </div>
+        </div>
+
+        <!-- Photo -->
+        <div class="about__photo-wrap reveal" style="transition-delay: 0.1s">
+          <img src="yoavln.jpeg" alt="Yoav Kleinberger" class="about__photo" />
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════════════════════════
+       CONTACT
+  ═══════════════════════════════════════════════════════════ -->
+  <section id="contact" class="contact">
+    <div class="container">
+      <div class="reveal">
+        <h2 class="contact__headline">
+          Ready to Take Control?
+        </h2>
+        <p class="contact__sub">
+          If you want to keep on top of your work, ship with confidence, and make it last — let's talk.
+        </p>
+        <div class="contact__actions">
+          <a
+            href="mailto:phase2.swc@gmail.com"
+            class="btn btn--outline"
+          >
+            <!-- Mail icon -->
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+              <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+              <polyline points="22,6 12,13 2,6"/>
+            </svg>
+            phase2.swc@gmail.com
+          </a>
+          <p class="contact__secondary">
+            Available for remote and on-site engagements worldwide.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- ═══════════════════════════════════════════════════════════
+       FOOTER
+  ═══════════════════════════════════════════════════════════ -->
+  <footer class="footer">
+    <div class="container">
+      <p class="footer__copy">
+        &copy; 2025 Phase 2 Software Development Consulting
+      </p>
+    </div>
+  </footer>
+
+
+  <script src="js/main.js" defer></script>
+</body>
+</html>
