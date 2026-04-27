@@ -1,5 +1,5 @@
 /* ============================================================
-   Phase 2 – Software Development Consulting
+   FoxDev – Software Development Consulting
    main.js
    ============================================================ */
 
